@@ -1,0 +1,42 @@
+//fons
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+//fons
+
+
+
+//styles
+@import "header/header";
+@import "hero/hero";
+@import "advant/advant";
+@import "services/services";
+@import "cargo/cargo";
+@import "contact/contact";
+@import "footer/footer";
+//styles
+
+//icons
+@import "icons.css";
+//icons
+
+
+//global
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body.html {
+  scroll-behavior: smooth;
+  font-family: "Montserrat",sans-serif;
+}
+//global

@@ -1,0 +1,64 @@
+#contact {
+  .contact--general {
+    h1 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      padding: 20px 0;
+      color: #000000;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #000000;
+
+      span {
+        color: #000AFF;
+      }
+    }
+
+    &__block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #000000;
+        padding: 30px ;
+      }
+    }
+    h4 {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #000000;
+
+      span {
+        color: #000AFF;
+      }
+    }
+    &__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .fa-telegram {
+      color: #000AFF;
+      font-size: 50px;
+      padding: 30px ;
+    }
+    .fa-whatsapp{
+      color: #159600;
+      font-size: 50px;
+      padding: 30px;
+    }
+  }
+}
